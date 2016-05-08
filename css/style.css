@@ -1,0 +1,151 @@
+/*Fichier CSS*/
+
+/*Corp du texte*/
+body {
+
+    background: yellow; 
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size: 100% ;
+
+}
+
+/*Entete*/
+header {
+	display:block;
+	background: red;
+
+	top:0px;
+	left:0px;
+	width:100%;
+	height:22%;
+	text-align:center;
+	position:fixed;
+	z-index:120;
+}
+h1 {
+	backgroun-color: black;
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	top: 30px;
+
+}
+/*Navigation*/
+nav {
+	display:block;
+	width:25%;
+	height:220px;
+	text-align:left;
+	top:240px;
+	position:fixed;
+	border:solid 4px red;
+	right:1%;
+	font-size:2rem;
+	z-index:140;
+
+}
+
+/*Liste de Navigation*/
+nav ul {
+	list-style:square;
+	color:blue;
+	text-decoration:none;
+}
+
+/*Presentation*/
+nav ul li a {
+	color:blue;
+	text-decoration:none;
+}
+
+/*Section*/
+section {
+
+	
+	color: rgba(255,255,255,1);
+	border:solid 5px red;
+	background-color: black;
+	background-size: 500px 500px;
+	background-position:top right;
+
+	background-repeat:no-repeat;
+
+	display:none;
+	width: 100%;
+	height: 100%;
+	
+
+}
+aside {
+
+	width:70%;
+	height:400px;
+	text-align:left;
+	top:240px;
+	position:fixed;
+	border:solid 4px red;
+	left:1%;
+	font-size:2rem;
+	z-index:140;
+	
+}
+p {
+	font-size: 45px;
+
+}
+
+#presentation {
+	background-image:url('http://www.ecoleducirquejohnfratellini.fr/crbst_chapiteau-dessin0.gif?v=64l1ooiauqs7dc');
+    
+}
+
+#performance1 {
+/*	background-image:url('http://eco-volontaire-international.com/wp-content/uploads/2015/08/Cirque.jpg');*/
+	background-image:url('http://i.skyrock.net/9940/41209940/pics/2896305365_1_20_yB7aXfS9.jpg');
+}
+
+#performance2 {
+/*	background-image:url('http://www.oran-news-24.com/wp-content/uploads/2016/03/cirque2.jpg');*/
+	background-image:url('http://idata.over-blog.com/5/87/27/68/2012/juillet2012/Medrano/008Medrano2012.JPG');
+}
+
+#performance3 {
+/*	background-image:url('http://www.cotequimper.fr/files/2014/10/Gabi-Donnert-Cavalerie-en-Liberte.jpg');*/
+	background-image:url('http://i.skyrock.net/4203/83184203/pics/3235748933_2_12_AHFvZ6Ig.jpg');
+}
+
+
+/*Fonction ; Affichage PERFORMANCES*/
+.afficher {
+	display:block;
+	height:400px;
+	top:140px;
+	opacity:1;
+}
+.description{
+	top:0px;
+	font-size: 20px;
+}
+.presentation {
+	top: 0px;
+	font-size: 25px;
+	font-weight: bold;
+}
+/*Pied de Page*/
+footer {
+	display:block;
+	background: red;
+	width:100%;
+	height:5%;
+	left:0;
+
+	position:fixed;
+	z-index:100;
+	bottom:0px;
+	
+}
+
+footer p {
+	font-size: 14px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="fr_FR">
+	<head>
+		<meta charset="utf-8" />
+		<title>Wild Circus Farms</title>
+		<meta name="description" content="Wild Circus Farms Tour"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	</head>
+
+	<body>
+<!--Entete-->
+		<header>
+			<h1>THE WILD CIRCUS OF FARMS ANIMALS</h1>
+		</header>
+            
+	<aside>
+		<p><span class="presentation">The Wild Farms Circus is the only circus in the world to show with farm animals.<br>
+	You will see the show with animals that have the reputation of being very stubborn.<br>
+	You will see extraordinary show with donkeys or roosters, cats ....<br>
+	You can find some pictures of different show.<br>
+	If you want to find out later it will come to us.<br>
+	You can find our next date in the tab "Date".</span></p>
+	<aside>
+<!--presentation Article-->
+	<section id="presentation" class="cache"><a name="presentation"></a>
+		<article>
+		  
+		  <p>You can discover the biggest circus of the world with the farm animals.</p>
+		  <p><span class="description">Here are the next dates<br>
+		  Paris, June 15th in the Bois de Vincennes<br>
+		  New York, July 15 in Central park<br>
+		  Mexico, August 15th in the Bosque de Chapultepec</span></p>
+		  
+		</article>
+	</section>
+
+<!-- section 1 : performance 1 -->
+	<section id="performance1" class="cache"><a name="performance1"></a>
+		<article>
+		  
+		  <p>A show of cows and goats</p>
+		  
+		  <p><span class="presentation"><br><br>It's goats are incredible agility.<br>
+		  It's make a fantastic jump.
+		</span></p>
+	
+		</article>
+	</section>
+
+<!-- section 2 : performance 2 -->
+	<section id="performance2" class="cache"><a name="performance2"></a>
+		<article>
+		  
+		  <p>A show of cows and geese</p>
+		  
+		   <p><span class="presentation"><br><br>Tamers doing fantastic things with these animals.<br>
+		  Parents and children will love this show.</span></p>
+		</article>
+	</section>
+
+<!-- section 3 : performance 3 -->
+	<section id="performance3" class="cache"><a name="performance3"></a>
+		<article>
+	
+		  <p>A show with donkey and goats</p>
+		  
+		  <p><span class="presentation"><br><br>This show is very fun for the kids.<br>
+			Children laugh a lot watching the donkeys do stupid things.</span></p>
+		</article>
+	</section>
+
+
+<!-- Navigation -->
+	<nav>
+		<ul>
+			<li id="menu0"><a href="#presentation">date</a></li>
+			<li id="menu1"><a href="#performance1">first show</a></li>
+			<li id="menu2"><a href="#performance2">second show</a></li>
+			<li id="menu3"><a href="#performance3">third show</a></li>
+		</ul>
+	</nav>
+
+
+<!-- Pied de page -->
+	<footer>
+		<p>Copywrite by lq</p>
+	</footer>
+
+
+<!-- Codess Affichage des Images-->
+		
+	<script>
+	$(document).ready(function(){
+		$('#menu0').on('click' , function() {
+			$('#presentation,#performance1,#performance2,#performance3').removeClass('afficher');
+			$('#presentation').toggleClass('afficher');
+		});
+		$('#menu1').on('click' , function() {
+			$('#presentation,#performance1,#performance2,#performance3').removeClass('afficher');
+			$('#performance1').toggleClass('afficher');
+		});
+		$('#menu2').on('click' , function() {
+			$('#presentation,#performance1,#performance2,#performance3').removeClass('afficher');
+			$('#performance2').toggleClass('afficher');
+		});
+		$('#menu3').on('click' , function() {
+			$('#presentation,#performance1,#performance2,#performance3').removeClass('afficher');
+			$('#performance3').toggleClass('afficher');
+		});
+	});
+		<!-- Fonction fin ; Affichage liens du nav-->
+
+	</script>
+
+
+	</body>
+</html>
